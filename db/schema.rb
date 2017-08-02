@@ -20,15 +20,16 @@ ActiveRecord::Schema.define(version: 20_170_802_145_738) do
     t.string "current_sign_in_ip"
     t.string "email"
     t.string "encrypted_password", default: "", null: false
-    t.string "image"
     t.datetime "last_sign_in_at"
     t.string "last_sign_in_ip"
     t.string "name"
-    t.string "nickname"
+    t.string "phone_number"
     t.string "provider", default: "email", null: false
+    t.integer "rank"
     t.datetime "remember_created_at"
     t.datetime "reset_password_sent_at"
     t.string "reset_password_token"
+    t.integer "school_id"
     t.integer "sign_in_count", default: 0, null: false
     t.text "tokens"
     t.string "uid", default: "", null: false
