@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 20_170_802_145_738) do
     t.datetime "remember_created_at"
     t.datetime "reset_password_sent_at"
     t.string "reset_password_token"
-    t.integer "school_id"
+    t.string "school_id"
     t.integer "sign_in_count", default: 0, null: false
     t.text "tokens"
     t.string "uid", default: "", null: false
