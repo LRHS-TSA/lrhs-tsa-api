@@ -41,6 +41,8 @@ gem 'bcrypt', '~> 3.1.11'
 gem 'responders', '~> 2.3.0'
 # Use devise for authentication
 gem 'devise', '~> 4.2.1'
+# Use omniauth as requirement for devise token authentication
+gem 'omniauth', '~> 1.6.1'
 # Add token authentication to devise
 gem 'devise_token_auth', '~> 0.1.42'
 # Provide authorization using CanCanCan
